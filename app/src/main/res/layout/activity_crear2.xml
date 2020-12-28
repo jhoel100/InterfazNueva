@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Crear2">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="370dp"
+        android:layout_height="594dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Plantilla de Silabo"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periodo Academico"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Periodo Academico"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Informacion Especifica"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Informacion Especifica"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Competencias de Asignatura"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Competencia Asignatura"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="Contenido"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Codigo"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Actividades de investigacion formativa"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Actividades"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="Estrategias de Evaluacion"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Estrategias de Evaluacion"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="Evaluacion de Aprendizaje "
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Evaluacion de Aprendizaje"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Cronograma de Evaluacion"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Codigo"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Requisitos de Aprobacion"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Requisitos de Aprobacion"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="Bibliografia"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Bibliografia"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crear" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CAtras"
+                android:text="Atras" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
